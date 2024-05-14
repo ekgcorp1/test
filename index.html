@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ivy Queen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TEST</h1>
+<style>
+body {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/la-nueva-calle.appspot.com/o/headphones-6123966_1280.jpg?alt=media&token=b43e5c66-9fa0-4361-839f-ea5f815c39a9');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+    <div class="playlist">
+        <div class="header">
+            <img src="https://firebasestorage.googleapis.com/v0/b/la-nueva-calle.appspot.com/o/Ivee%20Q%203.5.png?alt=media&token=78fcb2ef-5a12-4bab-a803-50e5a16237dd" alt="Ivy Queen">
+            <h2>Ivy Queen</h2>
+        </div>
+        <ul id="playlist">
+            <!-- Playlist items will be dynamically added here -->
+        </ul>
+        <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
